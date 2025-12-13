@@ -43,7 +43,7 @@ RegisterNumber:25017974
 
 
 ## Output:
-![gaussian elimination]()
+
 <img width="1460" height="664" alt="Screenshot 2025-12-13 181020" src="https://github.com/user-attachments/assets/517e9027-6677-46e1-8295-1a9457200340" />
 
 <img width="1427" height="819" alt="Screenshot 2025-12-13 181108" src="https://github.com/user-attachments/assets/abbb76a3-6f0d-453e-afd7-fa28e4a8142e" />
