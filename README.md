@@ -8,10 +8,41 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Write the augmented matrix
+Express the given system of linear equations in the form of an augmented matrix 
+[
+𝐴
+∣
+𝐵
+]
+[A∣B].
+
+2.Forward elimination
+Use elementary row operations to convert the augmented matrix into an upper triangular (row-echelon) form by making all elements below the leading diagonal zero.
+
+3.Check consistency
+If a row of the form 
+[
+0
+ 
+0
+ 
+0
+ 
+∣
+ 
+𝑐
+]
+[0 0 0 ∣ c] with 
+𝑐
+≠
+0
+c
+
+=0 appears, the system has no solution.
+
+4.Back substitution
+Solve the resulting triangular system starting from the last equation to obtain the values of the unknowns.
 
 ## Program:
 ```
@@ -40,7 +71,7 @@ for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
 Developed by:Kavinaya V
 RegisterNumber:25017974
-
+```
 
 ## Output:
 
